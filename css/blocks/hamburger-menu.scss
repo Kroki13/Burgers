@@ -1,0 +1,21 @@
+.hamburger-menu {
+    margin-left: rem(25px);
+    padding-top: rem(7px);
+    width: rem(25px);
+    height: rem(35px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+    @include tablets {
+        display: initial;
+    }
+}
+.hamburger-menu__item {
+    width: 100%;
+    border-radius: 1rem;
+    border: 0.125rem solid #fff;
+    margin-bottom: 0.3125rem;
+    background: #fff;
+}

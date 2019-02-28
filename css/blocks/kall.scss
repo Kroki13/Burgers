@@ -1,0 +1,24 @@
+.slider__kall {
+    position: absolute;
+    top: 80%;
+    color: #fff;
+    opacity: 0.5;
+    @include tablets {
+        display: none;
+        // top: -8%;
+        // left: 80%;
+    }
+}
+.slider__kall-val {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-family: 'gagalin';
+    font-size: 20px;
+}
+.slider__kall-text {
+    position: absolute;
+    left: 25%;
+    font-family: 'gagalin';
+    font-size: 15px;
+}

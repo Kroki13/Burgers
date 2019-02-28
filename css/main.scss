@@ -1,0 +1,45 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+//breakpoints
+$pc: 940px;
+$tablets: 768px;
+$phones: 480px;
+//normalize
+@import "./layout/normalize.scss";
+//for adaptive
+@import './_misc/_media.scss';
+//layout
+@import "./layout/_layout.scss";
+@import "./layout/_fonts.scss";
+//blocks
+@import "./blocks/firstpage.scss";
+@import "./blocks/buttons.scss";
+@import "./blocks/titles.scss";
+@import "./blocks/firstpagecontent.scss";
+@import "./blocks/arrow.scss";
+@import "./blocks/header.scss";
+@import "./blocks/we__list.scss";
+@import "./blocks/form.scss";
+@import "./blocks/we.scss";
+@import "./blocks/feedback.scss";
+@import "./blocks/workflow.scss";
+@import "./blocks/sidemenu.scss";
+@import "./blocks/team.scss";
+@import "./blocks/team__acord.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/menu-accordeon.scss";
+@import "./blocks/map.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/address.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/hamburger-menu.scss";
+@import "./blocks/burgers.scss";
+@import "./blocks/burgers__slider.scss";
+@import "./blocks/hide_menu.scss";
+@import "./blocks/kall.scss";
+@import "./blocks/fullscreen-menu.scss";
+@import "./blocks/popup.scss";
+@import "./blocks/player.scss";

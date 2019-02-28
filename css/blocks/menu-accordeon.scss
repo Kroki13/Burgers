@@ -1,0 +1,59 @@
+.menu-accordeon {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+.menu-accordeon__list {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    height: 100%;
+}
+.menu-accordeon__item {
+    height: 100%;
+    display: flex;
+}
+.menu-accordeon__triger {
+    cursor: pointer;
+    display: inline-block;
+    min-width: rem(80px);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &--active .menu-accordeon__triger-text{
+        color: $yellow;
+    }
+    &--active + .menu-accordeon__cont{
+        width: rem(550px);
+        @include tablets {
+            width: 50vw;
+            font-size: rem(13px);
+            }
+        @include phones {
+            width: 50vw;
+            font-size: rem(13px);
+            }
+        background-color: rgba(59, 57, 54, 0.93);
+    }
+}
+.menu-accordeon__triger-text {
+    display: block;
+    font-size: rem(40px);
+    color: #FFF;
+    position: absolute;
+    font-family: 'gagalin', helvetica, sans-serif;
+    top: 90%;
+    left:50%;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    transform-origin: 0 50%;
+}
+.menu-accordeon__cont {
+    width: 0;
+    line-height: 1.7;
+    overflow: hidden;
+    z-index: 2;
+}
+.menu-accordeon__text {
+    padding: rem(70px) rem(40px);
+}

@@ -1,0 +1,48 @@
+.sidemenu{
+    position: fixed;
+    right: rem(50px);
+    top: rem(90px);
+}
+.sidemenu__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sidemenu__item {
+        display: block;
+        width: rem(5px);
+        height: rem(5px);
+        background: #fff;
+        font-size: 0;
+        border-radius: 50%;
+        margin: rem(8px);
+        position: relative;
+        cursor: pointer;
+        &--active::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -95%;
+            left: -95%;
+            width: rem(15px);
+            height: rem(15px);
+            border: rem(1px) solid white;
+            border-radius: 50%;z-index:1; 
+            ;
+
+        }
+        &:hover::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -95%;
+            left: -95%;
+            width: rem(15px);
+            height: rem(15px);
+            border: rem(1px) solid white;
+            border-radius: 50%;
+            z-index:1; 
+            }
+}

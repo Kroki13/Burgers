@@ -1,0 +1,23 @@
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow__scroll {
+    cursor: pointer;
+    width: rem(29px);
+    height: rem(14px);
+    margin-bottom: rem(15px);
+}
+
+slider buttons .arrow__btn {
+    &--left {
+        transform: rotate(90deg);
+    }
+}
+
+.arrow__btn {
+    &--right {
+        transform: rotate(-90deg);
+    }
+}
