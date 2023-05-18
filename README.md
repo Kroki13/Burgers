@@ -1,5 +1,5 @@
 # а take a look at
 
 
-https://kroki13.github.io/Burger/
+https://kroki13.github.io/Burgers/
 
